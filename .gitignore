@@ -1,0 +1,35 @@
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+node_modules
+
+# Ignore build output in the client (React app)
+client/build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore coverage directory used by testing tools
+coverage/
+*.lcov
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

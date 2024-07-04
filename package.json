@@ -1,0 +1,14 @@
+{
+    "name": "resumebuilder",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "npm start --prefix server",
+        "client": "npm start --prefix client",
+        "build": "npm run build --prefix client"
+    },
+    "devDependencies": {
+        "concurrently": "^6.5.1"
+    }
+}
